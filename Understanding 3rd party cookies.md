@@ -1,45 +1,26 @@
-# Third party cookies in 5 minutes
+# NanoTechsSnack: 3rd-party cookies in 5 minutes
 // Unbaking third-party cookies
-// nanotechsnack: 3rd-party cookies
+// Tech snack: 3rd-party cookies
 
-- [Third party cookies in 5 minutes](#third-party-cookies-in-5-minutes)
-    - [Why am I reading this?](#why-am-i-reading-this)
-        - [Origins](#origins)
-        - [Cookie dough](#cookie-dough)
-            - [What are cookies made of?](#what-are-cookies-made-of)
-            - [How are cookies set/get?](#how-are-cookies-set-get)
-            - [Flavors](#flavors)
-            - [Evil?](#evil)
-        - [Trackers cryptonite](#trackers-cryptonite)
-        - [Hands-on](#hands-on)
-        - [A not-so-bright future](#a-not-so-bright-future)
-        - [Side notes](#side-notes)
-            - [Existential crisis](#existential-crisis)
-    - [Sources](#sources)
+## Why am I reading this?
+You're probably glad you're not the dev who had to implement the new GDPR feature.
+ 
+## Cookies 101
 
+### Def 
 "An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to the user's web browser. 
 **The browser may store it and send it back with the next request to the same server. **
 Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in, for example. It remembers stateful information for the stateless HTTP protocol."
 
-## Why am I reading this?
-Yes, you're so glad you're not the dev who had to implement the new GDPR feature.
-
 ### Origins 
 Cookies are used on the web since 1994.  
 "The first use of cookies [...] was checking whether visitors to the Netscape website had already visited the site."
-Alread back then, some privacy issues were raised.
-"Cookies were discussed in two U.S. Federal Trade Commission hearings in 1996 and 1997"
-Sources:
-https://en.wikipedia.org/wiki/HTTP_cookie#Alternatives_to_cookies 
-http://www.historyofinformation.com/detail.php?id=2102
- 
-### Cookie dough
 
-#### What are cookies made of?  
+### Cookie dough - What are cookies made of?  
 A cookie is simply a key-value pair.
 Example:
 
-#### How are cookies set/get?
+### How are cookies set/get?
 Set: 2 ways:
 - server-side: see https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Creating_cookies
 - client-side: see document.cookie = "username=John Doe";
@@ -56,7 +37,7 @@ So you're exposing your users to session hijacking:
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Session_hijacking_and_XSS or https://en.wikipedia.org/wiki/Session_hijacking
 
 
-#### Flavors
+### Zoom on cookie flavours
 
 
 o | first-party | third-party
@@ -64,21 +45,28 @@ o | first-party | third-party
  session | good: bad:  | xx
  persistent | B2 | C2
 
-
-#### Evil?
+So, which one is evil?
 Technically, all cookies are similar.
 
-### Trackers cryptonite
+The evil twin: 3rd party cookies and associated problems
+
+
+Alread back then, some privacy issues were raised.
+"Cookies were discussed in two U.S. Federal Trade Commission hearings in 1996 and 1997"
+Sources:
+https://en.wikipedia.org/wiki/HTTP_cookie#Alternatives_to_cookies 
+http://www.historyofinformation.com/detail.php?id=2102
+
+
+### How trackers work (or don't)
+
+
+#### Trackers cryptonite
 * DNT messages
 * Set DNT in your browser
 * Use a browser that does DNT by default
 * Use browser extensions such as [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
 * Delete your cookies regularly
-
-### Hands-on
-
-### A not-so-bright future
-* https://medium.com/mediafem-blog/how-will-googles-move-to-restrict-third-party-cookies-affect-publishers-b7c7d91ac1ef
 
 ### Side notes 
 
@@ -89,6 +77,10 @@ Alternatives to cookies.
 * Cookies vs redux
 * Cookies vs localStorage
 * Cookies vs other Alternatives---> see wikipedia
+
+https://medium.com/mediafem-blog/how-will-googles-move-to-restrict-third-party-cookies-affect-publishers-b7c7d91ac1ef
+
+
 
 ## Sources
 - https://en.wikipedia.org/wiki/HTTP_cookie#Alternatives_to_cookies
