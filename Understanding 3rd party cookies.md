@@ -1,15 +1,18 @@
-# NanoTechsSnack: 3rd-party cookies in 5 minutes
+# NanoTechSnack: 3rd-party cookies in 5 minutes
 // Unbaking third-party cookies
 // Tech snack: 3rd-party cookies
 
 ## Why am I reading this?
-You're probably glad you're not the dev who had to implement the new GDPR feature.
+You're probably glad you're not the dev who had to implement the new GDPR feature. But: don't you feel like a lost lemon when reading headlines about privacy issues and the new Firefox release? 
+Read this nano tech snack and get the best of both worlds: no privacy modal to implement and a solid nano-basis to understand 3rd-party cookies - the #1  public enemy of online privacy lovers (although my mom always clicks "Accept all").
  
 ## Cookies 101
 
 ### Def 
 "An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to the user's web browser. 
-**The browser may store it and send it back with the next request to the same server. **
+**The browser may store it and send it back with the next request to the same server.**
+
+### But why?
 Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in, for example. It remembers stateful information for the stateless HTTP protocol."
 
 ### Origins 
@@ -18,7 +21,9 @@ Cookies are used on the web since 1994.
 
 ### Cookie dough - What are cookies made of?  
 A cookie is simply a key-value pair.
-Example:
+Example: (img)
+It also has metadata attached to it:
+- an expiry date
 
 ### How are cookies set/get?
 Set: 2 ways:
@@ -69,6 +74,10 @@ http://www.historyofinformation.com/detail.php?id=2102
 * Delete your cookies regularly
 
 ### Side notes 
+
+#### Cookies and security concerns
+
+- whether it's HTTP or HTTPS
 
 #### Existential crisis
 Cookie use is not encouraged anymore. 
