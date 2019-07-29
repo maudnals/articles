@@ -1,5 +1,7 @@
 https://medium.com/mediafem-blog/how-will-googles-move-to-restrict-third-party-cookies-affect-publishers-b7c7d91ac1ef
 
++++ https://robertheaton.com/2017/11/20/how-does-online-tracking-actually-work/
+
 // Unbaking third-party cookies
 
 - https://en.wikipedia.org/wiki/HTTP_cookie#Alternatives_to_cookies
