@@ -3,33 +3,36 @@
 ## Why am I reading this? 
 
 You're probably glad you're not the dev who took on the GDPR tickets. I know it because I was that dev, and I wasn't glad.   
-But: do you feel like a lost bagel when reading headlines about privacy issues and the new Firefox release that includes DNT by default?  
-A big component of today's privacy concerns are third-party cookies (except for my mom who frantically clicks "Accept all") - so that's a start.  
-Read along if you're both lazy and vaguely excited at the idea of exploring how cookies work.
+But: do you feel like a lost bagel when reading headlines about privacy issues? 
+A star of today's privacy concerns are third-party cookies (well not a concern for my mom who frantically clicks "Accept all") - so that's a start.  
+Read along if you're both lazy and vaguely excited about exploring how third-party cookies work.
 
- 
 ##  But first, cookies [skip]
 
 ### Def  
-As [MDN](hhttps://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies) puts it way better than I would:  
-"An HTTP cookie [...] is a small piece of data that a server sends to the user's web browser."   
-Now to the best part: 
-"The browser may store it and send it back with the next request to the same server."  
+An HTTP cookie is a "small piece of data that a server sends to the user's web browser [...] the browser may store it and send it back with the next request to the same server." 
+Source: [MDN](hhttps://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
-Terminology hint: HTTP cookie = web cookie = browser cookie, as opposed to other types of cookies that we won't address just yet.
+Terminology hint: HTTP cookie = web cookie = browser cookie, as opposed to other types of cookies that we won't care about in this article because why would we.
 
 ### Why 
+
+Cookies are super useful to browser users, to:
+- keep them logged in
+- not need to give their preference again
+
 OK, the goal for the browser "to send it back with the next request to the same server" is to store stateful information from the stateless HTTP protocol. 
 
-Cookies are used on the web since 1994, first to "check whether visitors to the Netscape website had already visited the site." 
+Cookies are used on the web since 1994 Netscape.
+to "check whether visitors to the Netscape website had already visited the site." 
 "Cookies are typically used to tell if two requests came from the same browser — to keep a user logged in or remember their display preferences."
 
 ### What's inside
 A cookie is a key-value pair.  
 Example:  
-(img)  
+(img)
 
-It also has metadata attached to it such as an expiry date
+It also has metadata attached to it, such as an expiry date.
 
 ### How are cookies set/get
 Set: 2 ways:
@@ -40,12 +43,17 @@ Get: 2 ways:
 - server-side: see https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Creating_cookies
 - client-side: `document.cookie`;
 
-## Third-party magic
+## Cookie types 
 
 o | first-party | third-party
 ---------|----------|---------
  session | good: bad:  | xx
  persistent | B2 | C2
+
+
+NB: it's a bit counter intuitive that session have expiry data and not others 
+
+## Third-party magic
 
 So, which one is evil?
 Technically, all cookies are similar.
@@ -87,6 +95,10 @@ If your cookie is set server-side, it will be readable by client code.
 (because you won't be able to use the HttpOnly flag)
 So you're exposing your users to session hijacking: 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Session_hijacking_and_XSS or https://en.wikipedia.org/wiki/Session_hijacking
+
+
+#### New flavours!
+sameSite
 
 #### Existential crisis
 Cookie use is not encouraged anymore. 

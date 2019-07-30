@@ -1,6 +1,12 @@
-https://medium.com/mediafem-blog/how-will-googles-move-to-restrict-third-party-cookies-affect-publishers-b7c7d91ac1ef
 
-+++ https://robertheaton.com/2017/11/20/how-does-online-tracking-actually-work/
+
+https://robertheaton.com/2017/11/20/how-does-online-tracking-actually-work/
+https://privacy.net/stop-cookies-tracking/
+mozilla on cookies
+https://www.eff.org/es/deeplinks/2019/07/sharpening-our-claws-teaching-privacy-badger-fight-more-third-party-trackers
+
+
+https://medium.com/mediafem-blog/how-will-googles-move-to-restrict-third-party-cookies-affect-publishers-b7c7d91ac1ef
 
 // Unbaking third-party cookies
 
