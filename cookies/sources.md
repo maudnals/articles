@@ -1,21 +1,16 @@
 
-
+Essentials:
 https://robertheaton.com/2017/11/20/how-does-online-tracking-actually-work/
 https://privacy.net/stop-cookies-tracking/
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Session_hijacking_and_XSS
 https://www.eff.org/es/deeplinks/2019/07/sharpening-our-claws-teaching-privacy-badger-fight-more-third-party-trackers
 https://www.whoishostingthis.com/resources/cookies-guide/
+https://www.youtube.com/watch?v=QWw7Wd2gUJk
 
+History:
+http://www.governingwithcode.org/case_studies/pdf/Cookies.pdf
 
-
-
-
-https://medium.com/mediafem-blog/how-will-googles-move-to-restrict-third-party-cookies-affect-publishers-b7c7d91ac1ef
-
-// Unbaking third-party cookies
-
-- https://en.wikipedia.org/wiki/HTTP_cookie#Alternatives_to_cookies
-- https://privacy.net/stop-cookies-tracking/
+All:
 - https://piwik.- pro/blog/first-party-vs-third-party-cookies-why-first-party-is-the-way-to-go/
 - https://www.opentracker.net/article/third-party-cookies-vs-first-party-cookies
 - https://web.dev/samesite-cookies-explained
@@ -31,17 +26,29 @@ https://medium.com/mediafem-blog/how-will-googles-move-to-restrict-third-party-c
 - https://blog.mozilla.org/firefox/cross-site-tracking-lets-unpack-that/
 - https://blog.mozilla.- org/blog/2018/10/23/latest-firefox-rolls-out-enhanced-tracking-protection/
 - https://blog.mozilla.- org/futurereleases/2018/08/30/changing-our-approach-to-anti-tracking/
-- https://blog.mozilla.- org/futurereleases/2018/10/23/the-path-to-enhanced-tracking-protection/ 
 - https://www.wired.com/story/privacy-browsers-duckduckgo-ghostery-brave/
-- 
-https://medium.com/datadriveninvestor/cookies-vs-local-storage-2f3732c7d977
-https://www.digitaltrends.com/computing/history-of-cookies-and-effect-on-privacy/
+https://developers.google.com/web/tools/chrome-devtools/storage/cookies
+- https://www.nytimes.com/2001/09/04/business/giving-web-a-memory-cost-its-users-privacy.html
 
-https://stackoverflow.com/questions/40848816/why-not-use-cookies-instead-of-redux
+Future:
+https://medium.com/mediafem-blog/how-will-googles-move-to-restrict-third-party-cookies-affect-publishers-b7c7d91ac1ef
+
+Alternatives:
+- https://en.wikipedia.org/wiki/HTTP_cookie#Alternatives_to_cookies
+- https://medium.com/datadriveninvestor/cookies-vs-local-storage-2f3732c7d977
+- https://stackoverflow.com/questions/40848816/why-not-use-cookies-instead-of-redux
+
+All tracking methods: 
+https://cliqz.com/en/magazine/cookies-fingerprinting-co-tracking-methods-clearly-explained
 
 
 
 ====== 
+
+alternative title: Unbaking third-party cookies
+
+====== 
+
 QUESTIONS:
 - cookie set on user device vs sent to server, and how/when are they "set"/"sent"... ? See https://developers.google.com/web/tools/chrome-devtools/network/reference#filter-by-property
 - why is the cookie list in the URL bar and in devTools not the same length?
