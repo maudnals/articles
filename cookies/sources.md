@@ -2,8 +2,12 @@
 
 https://robertheaton.com/2017/11/20/how-does-online-tracking-actually-work/
 https://privacy.net/stop-cookies-tracking/
-mozilla on cookies
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Session_hijacking_and_XSS
 https://www.eff.org/es/deeplinks/2019/07/sharpening-our-claws-teaching-privacy-badger-fight-more-third-party-trackers
+https://www.whoishostingthis.com/resources/cookies-guide/
+
+
+
 
 
 https://medium.com/mediafem-blog/how-will-googles-move-to-restrict-third-party-cookies-affect-publishers-b7c7d91ac1ef

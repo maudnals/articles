@@ -11,7 +11,7 @@ Read along if you're both lazy and vaguely excited about exploring how third-par
 
 ### Def  
 An HTTP cookie is a "small piece of data that a server sends to the user's web browser [...] the browser may store it and send it back with the next request to the same server." 
-Source: [MDN](hhttps://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+Source: [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
 Terminology hint: HTTP cookie = web cookie = browser cookie, as opposed to other types of cookies that we won't care about in this article because why would we.
 
@@ -35,6 +35,12 @@ Example:
 It also has metadata attached to it, such as an expiry date.
 
 ### How are cookies set/get
+
+
+Request Cookie = Cookie the client sends along with the request.
+Response Cookies = HTTP header name Set-Cookie (so this contains the "Request Cookie" value for all future requests).
+
+
 Set: 2 ways:
 - server-side: see https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Creating_cookies
 // Basically a HTTP request is made, with Set-Cookie header.
@@ -110,4 +116,4 @@ Alternatives to cookies.
 
 
 ## Other members of the tracking mafia 
-- fingerprinting (next article)
+- fingerprinting (= next article)
