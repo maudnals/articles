@@ -1,7 +1,9 @@
 # Third-party cookies 101 
 
 ## To explore it all:  
-Disable content tracking https://support.mozilla.org/en-US/kb/content-blocking
+Disable content tracking https://support.mozilla.org/en-US/kb/content-blocking  
+Disambiguate:   
+host vs url (in the cookies API) vs origin vs domain
 
 ## Why am I reading this? 
 
