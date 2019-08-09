@@ -1,4 +1,7 @@
-# Third-party cookies 101
+# Third-party cookies 101 
+
+## To explore it all:  
+Disable content tracking https://support.mozilla.org/en-US/kb/content-blocking
 
 ## Why am I reading this? 
 
