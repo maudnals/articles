@@ -3,7 +3,7 @@
 ## To explore it all:  
 Disable content tracking https://support.mozilla.org/en-US/kb/content-blocking  
 Disambiguate:   
-host vs url (in the cookies API) vs origin vs domain
+host vs url (in the cookies API request) vs origin (in dev tools) vs domain (in cookies API response)
 
 ## Why am I reading this? 
 
