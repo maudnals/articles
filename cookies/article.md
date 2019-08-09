@@ -89,6 +89,16 @@ The law says it must be disclosed.
 
 ### Asides
 
+#### Cookies vs trackers vs cookies 
+
+The terminology is a little confusing.     
+Cookies that are considered tracking cookies are sometimes referred to as trackers, but not all trackers are cookies.  
+For example: tracking scripts.   
+It's a venn diagram.  
+See https://support.mozilla.org/en-US/kb/content-blocking
+
+
+
 #### Cookies and security concerns
 
 - HTTP vs HTTPS
@@ -117,3 +127,4 @@ Alternatives to cookies.
 
 ## Other members of the tracking mafia 
 - fingerprinting (= next article)
+- tracking scripts
