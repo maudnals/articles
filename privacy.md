@@ -1,8 +1,10 @@
-You have something to hide - series
+# You have something to hide - series
 
 
 Part 1: Two tales of Privacy
+
 Part 2: Privacy as Trust
+
 Part 3: Babel's Puzzle
 
 
@@ -83,6 +85,9 @@ Think about when you're really pissed of: it's when your stuff is used in ways y
 Especially Europe.
 
 ## French
+
+"Confidentiel" - confidential is such a great word.
+A confidence is a secret you tell someone, you whisper to them, and they keep to themselves.
 
 I was shocked to see that Google translates "privacy" as "intimité". "Intimité" translates back to "intimacy". Aka sex health etc - some topics are intrisically intimate. But what about your movements during the day?? See marauders' map. Seems anecdotic but can be dangerous!!
 
