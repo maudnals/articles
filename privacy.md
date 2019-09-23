@@ -1,31 +1,33 @@
-You have something to hide - series
+You have something to hide - series:
 
-
-Part 1: Two tales of Privacy
-Part 2: Privacy as Trust
-Part 3: Babel's Puzzle
-
+* Part 1: Two tales of Privacy
+* Part 2: Privacy as Trust
+* Part 3: On the street and in the books: privacy in language and law
 
 # Two tales of Privacy
 
-The problem about privacy is its definition.
+Privacy is defined as *"someone's right to keep their personal matters and relationships secret; the state of being alone."* ([Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/privacy)).
 
-"Someone's right to keep their personal matters and relationships secret; the state of being alone."
-Examples: 
-*"The new law is designed to protect people's privacy."*
-*"I hate sharing a bedroom - I never get any privacy."*
+Examples: *"The new law is designed to protect people's privacy."* and *"I hate sharing a bedroom - I never get any privacy."*
 
-(Source: Cambridge dictionary - [Privacy](https://dictionary.cambridge.org/dictionary/english/privacy))
+## We have a problem
 
-It's not that this definition is wrong. By definition, a definition can't be wrong... Right? :)
+And the problem lays right in the definition above.
+It's not exactly wrong: by definition, a definition can't be wrong... Right? (♠_♦)
 
-But this definition doesn't match what privacy is in our everyday lives. Especially not digital privacy. 
+**But it doesn't match what privacy is in our everyday lives**. Especially not digital privacy.
+
+That's because the definition implies that privacy is **binary**: some matters are secret and some are public. This is the "Walled Garden" view.
+
+But in practice, we expect privacy to be much more **modular**. That's what we'll illustrate as the "Mask Collection" view.
+
+Let's dive in.
 
 ## Binary privacy or the Walled Garden
 
-The definition above implicates that privacy is **binary**. 
-I have a secret **walled garden**. In my garden are my **private** pieces of information. Only I can access it: privacy is bound to "being alone". 
-On the other side of the wall, there's the open world. Information that I place outside of my walled garden is accessible to other humans. So it's **not private** anymore.
+The definition above implicates that privacy is **binary**:
+* Each of us has a secret **walled garden**. In our gardens are our **private** pieces of information. Only us, as garden owners, can access it: privacy is bound to "being alone".
+* On the other side of the wall, there's the open world. Information that we place beyond our wall is accessible to other people. So it's **not private** anymore.
 
 There are two issues with this binary privacy view:
 1. It doesn't map to our everyday lives.
@@ -34,20 +36,21 @@ There are two issues with this binary privacy view:
 ### Binary privacy doesn't add up
 
 I disclose my home address to Amazon, but I'd rather not share it with my music service.
-I disclose my health data to Google Fit, but I don't want my insurance to know about it.
+I disclose my health data to Google Fit, but I don't want my insurance to see it.
 I'm fine with my friends knowing which stupid videos I watch at home, but maybe I don't want my employer to know about it ("Badger Badger", anyone?).
 I'm disclosing my salary to an online real estate concellor, but I'm not comfortable with all my friends knowing about it.
 
-So... is privacy really about separating `me` from `other people`? 
-It seems in the contrary, that I'm sharing many private things with many people. 
+So... it looks like privacy is not really about separating `me` from `other people`. If it was so, never would I disclose seemingly private information to anyone.
 
-What makes a piece of data private? 
+We've hit a nerve: "disclosure".
+Quite paradoxically, disclosure makes a piece of data private -
+What makes a piece of data private?
 Intimacy? No.
 
 ### It's dangerous
 
 It paves the ways to arguments such as "I have nothing to hide". // todo why does it pave the way.
-... To whom, exactly?
+... Nothing to hide? From whom, exactly?
 
 Anon movie: "It's not that I have something to hide," she tells Sal before walking away at the end of the film. "I have nothing I want you to see."
 Snwoden: todo (2019??)
@@ -61,14 +64,14 @@ https://www.stanforddaily.com/2019/01/29/nothing-to-hide-proves-a-secret-success
 # Modular privacy or the Mask Collection
 
 The counter-intuitive thing about privacy is that it's **social**.
+Social ---> network.
 
+That's why attempts like [this](https://github.com/csharrison/conversion-measurement-api) are potentially dangerous: all in the same box!
 
-
-
-
-
-
-
+## Pseudonyms
+* Identity is the new Money book
+* DID recommendations
+* Right to access vs identity - Snowden
 
 # Privacy as Trust
 
@@ -76,7 +79,7 @@ Think about when you're really pissed of: it's when your stuff is used in ways y
 
 2 screenshots about phone number: which one are you the most likely to share??
 
-"reasonable EXPECTATION of privacy" (see habeas daat book) - expectation as trust!! Trust in a way, is a form of expectation.
+"reasonable EXPECTATION of privacy" (see habeas data book) - expectation as trust!! Trust *is* a form of expectation, in a way.
 
 # Babel's mess: A note on language
 
@@ -90,6 +93,9 @@ I was shocked to see that Google translates "privacy" as "intimité". "Intimité
 
 Privatsphäre {f}
 Datenschutz {m}
+
+# What the law says
+Reasonable expectation of privacy
 
 
 
@@ -179,10 +185,7 @@ FB facial recognition // p.1
 
 # Own your data
 
-
-
 A few weeks ago, I was having dinner at my friends' place. We were six people and some of use didn't know each other beforehand. The conversation revolved around what we love about Berlin, housing, dating, drinks, what mezzazines are, and to some extent our jobs.
 It was the first time I was telling a group of friends about my job since I've started in a new role. I quickly noticed that, contrary to my previous role that didn't seem to interest people that much (they'd politely nod and just pour some more wine in their glass, so we'd switch topic to talk about them or siblings, an excellent topic).
-
 
 "Nothing to hide" has a bug
