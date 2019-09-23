@@ -89,6 +89,9 @@ Especially Europe.
 
 I was shocked to see that Google translates "privacy" as "intimité". "Intimité" translates back to "intimacy". Aka sex health etc - some topics are intrisically intimate. But what about your movements during the day?? See marauders' map. Seems anecdotic but can be dangerous!!
 
+
+Confidentitiality = confidences = that's exactlt what disclosure is!
+
 ## German
 
 Privatsphäre {f}
