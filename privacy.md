@@ -1,3 +1,4 @@
+
 You have something to hide - series:
 
 * Part 1: Two tales of Privacy
@@ -35,12 +36,14 @@ There are two issues with this binary privacy view:
 
 ### Binary privacy doesn't add up
 
-I disclose my home address to Amazon, but I'd rather not share it with my music service.
-I disclose my health data to Google Fit, but I don't want my insurance to see it.
-I'm fine with my friends knowing which stupid videos I watch at home, but maybe I don't want my employer to know about it ("Badger Badger", anyone?).
-I'm disclosing my salary to an online real estate concellor, but I'm not comfortable with all my friends knowing about it.
+You might disclose your home address to Amazon, but you'd rather not share it with my music streaming service.
+Google Fit knows your health data, but you don't want my insurance to see it.
+You're probably OK with your friends knowing which funny videos your watch at home, but it doesn't mean you want your employer to know about them ("Badger Badger", anyone?).
+I'm disclosing my salary to an online real estate councellor, but I'm not comfortable with all my friends knowing about it.
 
-So... it looks like privacy is not really about separating `me` from `other people`. If it was so, never would I disclose seemingly private information to anyone.
+So... it looks like privacy is not really about separating `me` from `other people`.
+
+If it was so, never would you disclose seemingly private information to anyone.
 
 We've hit a nerve: "disclosure".
 Quite paradoxically, disclosure makes a piece of data private -
@@ -87,10 +90,14 @@ Especially Europe.
 
 ## French
 
+"Confidentiel" - confidential is such a great word.
+A confidence is a secret you tell someone, you whisper to them, and they keep to themselves.
+
 I was shocked to see that Google translates "privacy" as "intimité". "Intimité" translates back to "intimacy". Aka sex health etc - some topics are intrisically intimate. But what about your movements during the day?? See marauders' map. Seems anecdotic but can be dangerous!!
 
 
-Confidentitiality = confidences = that's exactlt what disclosure is!
+Confidentitiality = confidences = that's exactly what disclosure is!
+And the french "confidence" in english is ... TRUST.
 
 ## German
 
@@ -103,19 +110,6 @@ Reasonable expectation of privacy
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-Why is a buggy argument
 
 # The secret problem about privacy
 # Privacy: the weird parts
@@ -158,15 +152,12 @@ World 1: "the only things that remain private are these that we keep secret"
 World 2: "Information can be shared with others without the entire world looking in"
 p.2 
 
-# Different ways the modern web violates your privacy
-
 # Arguments and dangers
-contre-arguments: ML risks, mixup everything risks, **social** risks
+contre-arguments: ML risks (they know sthg about you that you don't even), mixup everything risks ant state surveillance, **social** risks (at the society's level, not just the individual)
 ## "I have nothing to hide"  
 ## "I'm happy to get targeted advertisements" // yes, but it's more than that. It transforms your world. that determines what you see, what you learn... 
-## "It's too late anyways, 'they' have too much data"  
-
-## The potato field paradigm
+## "It's too late anyways, 'they' have too much data" // no, because you change 
+## "I wouldn't make money w that data anyways" The potato field paradigm
 I'm OK with them doing money over my data since I'm not using it anyways. (Tomek)
 
 soil = your data
@@ -191,4 +182,7 @@ FB facial recognition // p.1
 A few weeks ago, I was having dinner at my friends' place. We were six people and some of use didn't know each other beforehand. The conversation revolved around what we love about Berlin, housing, dating, drinks, what mezzazines are, and to some extent our jobs.
 It was the first time I was telling a group of friends about my job since I've started in a new role. I quickly noticed that, contrary to my previous role that didn't seem to interest people that much (they'd politely nod and just pour some more wine in their glass, so we'd switch topic to talk about them or siblings, an excellent topic).
 
-"Nothing to hide" has a bug
+
+# Different ways the modern web violates your privacy
+
+Small map: 3rd party cookies + other stuff
