@@ -1,64 +1,77 @@
+the mosaic: the whole tells more about you than the sum of its parts
+
+
 
 You have something to hide - series:
 
 * Part 1: Two tales of Privacy
 * Part 2: Privacy as Trust
-* Part 3: On the street and in the books: privacy in language and law
+* Part 3: Privacy on the street vs. privacy in the books
+* Part 4: You have something to hide
+
+Disclaimer: none of the ideas exposed in this writeup are new. But all of them seem to be hiding in plain sight, benefitting from the noise of privacy breaches and Facebook statements. *You privacy is paramount to us* this, *We care about your privacy (as a title of a cookie modal with no options, how ironic)* that.
 
 # Two tales of Privacy
 
-Privacy is defined as *"someone's right to keep their personal matters and relationships secret; the state of being alone."* ([Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/privacy)).
+Cambridge dictionary defines privacy as *"someone's right to keep their personal matters and relationships secret; the state of being alone."* ([Cambridge dictionary](https://dictionary.cambridge.org/dictionary/english/privacy)).
 
 Examples: *"The new law is designed to protect people's privacy."* and *"I hate sharing a bedroom - I never get any privacy."*
 
-## We have a problem
-
-And the problem lays right in the definition above.
-It's not exactly wrong: by definition, a definition can't be wrong... Right? (♠_♦)
-
-**But it doesn't match what privacy is in our everyday lives**. Especially not digital privacy.
-
-That's because the definition implies that privacy is **binary**: some matters are secret and some are public. This is the "Walled Garden" view.
-
-But in practice, we expect privacy to be much more **modular**. That's what we'll illustrate as the "Mask Collection" view.
-
-Let's dive in.
+We have a problem with this definition.
+Surely a definition can't be *wrong*. By definition. Right?
+But it **doesn't match what we expect privacy to be in our daily lives**. Especially not in our digital lives.
 
 ## Binary privacy or the Walled Garden
 
-The definition above implicates that privacy is **binary**:
-* Each of us has a secret **walled garden**. In our gardens are our **private** pieces of information. Only us, as garden owners, can access it: privacy is bound to "being alone".
-* On the other side of the wall, there's the open world. Information that we place beyond our wall is accessible to other people. So it's **not private** anymore.
+Imagine the world as described by definition above.
+Each of us has a secret **walled garden**. You keep your **private** pieces of information in your garden. Only you, as a garden owner, can access it: privacy is bound to "being alone". On the other side of the wall, there's the open world. Information that you place beyond our wall is accessible to other people. As soon as you push some data outside of you garden's realm, it's **not private** anymore.
+In this world, privacy is **binary**: a piece of information is either private or pubic.
 
-There are two issues with this binary privacy view:
+### Why is doesn't add up
+
+Wait. You're probably OK with your friends knowing about the witty videos your watch at home. But does it mean you want your employer to know about them ("Badger Badger", anyone?)? Likely not. You might disclose your home address to Amazon, but you'd rather not share it with your music streaming service. And so on.
+Not because you share a piece of information means that you're ready to make it public.
+A great illustration of this is the 2016 OKCupid Data breach. user shared information about their fetishes and sexual preferences with the OKCupid website https://fortune.com/2016/05/18/okcupid-data-research/ When a group of researchers published it - although it was already out in the internet - they felt their privacy was violated, and rightfully so.
+
+So privacy is not about separating `me` from `other people`.
+
+<!-- If it was so, you would never disclose a private piece of information would never be disclosed. -->
+We've hit a nerve: "disclosure". This is counter-intuitive, but the context in which a piece of information was disclosed makes it private or not.
+Put it simply: if you trust that a piece of information should remain between you and the service you shared it with, this makes it private. It's a bit like ... : just saying it makes it true.
+"I think, therefore I am"
+
+<!-- What makes a piece of data private?
+Intimacy? No. -->
+
+so it's not absolute: it's a matter of expectation.
+
+
+
+
+
+
+
+
+
+But in practice, we expect privacy to be much more **modular**. That's what we'll illustrate as the "Mask Collection" view.
+
+<!-- secret -->
+
+There are two issues with the binary privacy view:
 1. It doesn't map to our everyday lives.
 2. It's dangerous, because it paves the ways to arguments such as "I have nothing to hide".
-
-### Binary privacy doesn't add up
-
-You might disclose your home address to Amazon, but you'd rather not share it with my music streaming service.
-Google Fit knows your health data, but you don't want my insurance to see it.
-You're probably OK with your friends knowing which funny videos your watch at home, but it doesn't mean you want your employer to know about them ("Badger Badger", anyone?).
-I'm disclosing my salary to an online real estate councellor, but I'm not comfortable with all my friends knowing about it.
-
-So... it looks like privacy is not really about separating `me` from `other people`.
-
-If it was so, never would you disclose seemingly private information to anyone.
-
-We've hit a nerve: "disclosure".
-Quite paradoxically, disclosure makes a piece of data private -
-What makes a piece of data private?
-Intimacy? No.
 
 ### It's dangerous
 
 It paves the ways to arguments such as "I have nothing to hide". // todo why does it pave the way.
+
 ... Nothing to hide? From whom, exactly?
 
 Anon movie: "It's not that I have something to hide," she tells Sal before walking away at the end of the film. "I have nothing I want you to see."
 Snwoden: todo (2019??)
 +++++ Analytica
 
+https://spreadprivacy.com/three-reasons-why-the-nothing-to-hide-argument-is-flawed/
 
 https://en.wikipedia.org/wiki/Nothing_to_hide_argument#Against_the_argument 
 
@@ -75,6 +88,9 @@ That's why attempts like [this](https://github.com/csharrison/conversion-measure
 * Identity is the new Money book
 * DID recommendations
 * Right to access vs identity - Snowden
+
+## GDPR and the california consumer protection act go in the same direction
+Anything that can link to you is considered personal; data.
 
 # Privacy as Trust
 
@@ -153,7 +169,7 @@ World 2: "Information can be shared with others without the entire world looking
 p.2 
 
 # Arguments and dangers
-contre-arguments: ML risks (they know sthg about you that you don't even), mixup everything risks ant state surveillance, **social** risks (at the society's level, not just the individual)
+contre-arguments: ML risks (they know sthg about you that you don't even), mixup everything risks ant state surveillance, **SOCIAL** risks (at the society's level, not just the individual)
 ## "I have nothing to hide"  
 ## "I'm happy to get targeted advertisements" // yes, but it's more than that. It transforms your world. that determines what you see, what you learn... 
 ## "It's too late anyways, 'they' have too much data" // no, because you change 
@@ -166,12 +182,14 @@ Contre-arguments:
 * That's because you don't have a choice
 * It's more that they'd build fence around the field
 * ... todo find a good metaphor to explain the
+* The whole thing is more than the sum of its parts (see the marauder's map)
 
 
 
 # Privacy vs personal data
 
-# History of privacy issues
+# History of privacy breaches
+
 2016 OKCupid // p.1
 FB facial recognition // p.1
 
